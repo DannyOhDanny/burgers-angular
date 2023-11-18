@@ -13,7 +13,7 @@ import {FormBuilder, ReactiveFormsModule, Validators} from "@angular/forms";
 })
 
 export class AppComponent {
-  currency= '$';
+  currency = '$';
 
   form = this.fb.group({
     order: ["", Validators.required],
@@ -106,7 +106,7 @@ export class AppComponent {
     price: 9,
     basePrice: 9,
     grams: 360,
-  }, ];
+  },];
 
 
   constructor(private fb: FormBuilder) {
@@ -152,7 +152,7 @@ export class AppComponent {
 
     this.currency = newCurrency;
 
-    this.productsData.forEach((item:any)=>{
+    this.productsData.forEach((item: any) => {
       item.price = +(item.basePrice * index).toFixed(2);
     })
 
