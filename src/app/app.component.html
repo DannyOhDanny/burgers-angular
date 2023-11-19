@@ -80,7 +80,7 @@
       <!--      Маппинг карточек-->
       <div class="products-item" *ngFor=" let product of productsData">
         <div class="products-items-image">
-          <img src="./assets/images/{{product.image}}" alt="{{product.title}}" class="products-items-pic">
+          <img src="{{product.image}}" alt="{{product.title}}" class="products-items-pic">
         </div>
         <h2 class="products-item-title">{{product.title}}</h2>
         <div class="products-item-text">{{product.text}}
