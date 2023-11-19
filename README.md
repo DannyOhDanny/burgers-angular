@@ -12,10 +12,10 @@
 
 Команда `ng serve` открывает приложение на `http://localhost:4200/` 4200 порте.
 
-## Code scaffolding
+## Генерация нового компонента
 
 Команда `ng generate component component-name` генерирует новый компонент.
 
-## Build
+## Билд
 
 Команда `ng build` собирает проект в директории `/dist`.
