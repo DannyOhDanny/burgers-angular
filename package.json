@@ -1,7 +1,6 @@
 {
   "name": "burgers-angular",
   "version": "0.0.0",
-  "homepage": "https://dannyohdanny.github.io/burgers-angular",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
