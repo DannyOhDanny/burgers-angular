@@ -169,6 +169,11 @@
 
 .products-items-pic {
   max-width: 100%;
+  transition: all .5s ease;
+}
+
+.products-items-pic:hover {
+  transform: scale(1.1);
 }
 
 .products-item-title {
@@ -310,3 +315,24 @@
   font-weight: 600;
   line-height: 20px;
 }
+
+.loader {
+  top:0;
+  width: 100%;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 3s ease-in-out;
+}
+
+/*.loader lottie-player {*/
+/*  display: block;*/
+/*  width: 300px;*/
+/*  height: 300px;*/
+/*}*/
+
+/*.loader.showed {*/
+/*  opacity: 1;*/
+/*}*/

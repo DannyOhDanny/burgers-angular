@@ -33,7 +33,7 @@
           <button class="button" id="main-action-button" (click)="scrollTo(products)">Смотреть меню</button>
         </div>
       </div>
-      <img alt="Big Burger" class="main-image" src="./assets/images/main_burger.png">
+      <img alt="Big Burger" class="main-image" src="./assets/images/main_burger.png" [ngStyle]="mainImageStyle">
     </div>
   </section>
 </section>
@@ -111,7 +111,7 @@
 <section class="order" id="order" #order>
   <div class="container">
     <h3 class="order-title common-title">оформление заказа</h3>
-    <img src="./assets/images/order_image.png" alt="burger in the box" class="order-image">
+    <img src="./assets/images/order_image.png" alt="burger in the box" class="order-image" [ngStyle]="orderImageStyle">
     <form class="order-form" name="form">
 
       <div class="order-form-text">
@@ -147,3 +147,5 @@
     <div class="rights">Все права защищены</div>
   </div>
 </footer>
+
+
